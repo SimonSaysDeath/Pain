@@ -1,6 +1,7 @@
 void setup()
 {
   fullScreen();
+  frameRate(999999999);
   fill(#FFFFFF);
   rect(displayWidth*0/3, displayHeight*0/3, displayWidth*3/3, displayHeight*3/3);
   rect(displayWidth*0/3, displayHeight*0/3, displayWidth*1/3, displayHeight*1/3);
